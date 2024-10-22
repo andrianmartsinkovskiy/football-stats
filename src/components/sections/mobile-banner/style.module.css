@@ -1,0 +1,35 @@
+.wrap {
+  width: 100dvh;
+  height: 100dvh;
+  background: #000;
+  color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.text {
+  font-size: 25px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.icons {
+  font-size: 54px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 760px) {
+  .wrap {
+    display: flex;
+  }
+}

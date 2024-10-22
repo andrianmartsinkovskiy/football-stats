@@ -1,0 +1,5 @@
+.wrap {
+  padding: 20px 36px;
+  display: grid;
+  gap: 24px;
+}

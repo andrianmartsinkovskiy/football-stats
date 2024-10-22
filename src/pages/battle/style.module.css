@@ -1,0 +1,10 @@
+.wrap {
+  display: grid;
+  grid-template-rows: 162px 1fr;
+  height: 100dvh;
+  row-gap: 20px;
+}
+
+
+
+

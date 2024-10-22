@@ -1,0 +1,23 @@
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.container {
+  background: #222;
+  padding: 24px;
+  width: 100%;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  max-height: 80vh;
+  overflow-y: scroll;
+}

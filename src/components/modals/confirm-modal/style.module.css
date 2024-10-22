@@ -1,0 +1,47 @@
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.9);
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 512px;
+  width: 100%;
+  background: #333333;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #555;
+  color: #fff;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.form {
+  display: grid;
+  row-gap: 24px;
+}
+
+.item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 4px;
+  column-gap: 4px;
+}
+
+.playerTitle {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  margin-top: 24px;
+}
